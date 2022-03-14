@@ -4,9 +4,9 @@
 	<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
 		<Id>
 			<TypeId>Refinery</TypeId>
-			<SubtypeId>AwesomeSink</SubtypeId>
+			<SubtypeId>AlterToClang</SubtypeId>
 		</Id>
-		<DisplayName>Awesome Sink</DisplayName>
+		<DisplayName>Alter To Clang</DisplayName>
 		<Description>Processes extra ores into rare ingots/components</Description>
 		<Icon>Textures\GUI\Icons\Cubes\Assembler.dds</Icon>
 		<CubeSize>Large</CubeSize>
@@ -50,9 +50,6 @@
 		</InventorySize>
 		<StandbyPowerConsumption>0.01</StandbyPowerConsumption>
 		<OperationalPowerConsumption>1</OperationalPowerConsumption>
-		<BlueprintClasses>
-			<Class>SinkOre</Class>
-		</BlueprintClasses>
 		<RefineSpeed>1</RefineSpeed>
 		<MaterialEfficiency>1</MaterialEfficiency>
 		<DamageEffectId>212</DamageEffectId>

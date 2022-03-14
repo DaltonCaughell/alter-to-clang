@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroup>
-		<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AwesomeSinkGroup" />
+		<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AlterToClangGroup" />
 		<Icon>Textures\GUI\Icons\Cubes\Assembler.dds</Icon>
-		<DisplayName>Awesome Sink</DisplayName>
+		<DisplayName>Alter To Clang</DisplayName>
 		<Description>Processes extra resources for a chance to produce rare resources/components</Description>
 		<Blocks>
-			<Block Type="MyObjectBuilder_Refinery" Subtype="AwesomeSink" />
+			<Block Type="MyObjectBuilder_Refinery" Subtype="AlterToClang" />
 		</Blocks>
 	</BlockVariantGroup>
 </Definitions>

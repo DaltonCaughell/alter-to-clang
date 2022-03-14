@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>LargeAlterToClang</SubtypeId>
+      </Id>
+      <Size x="7.5" y="7.5" z="2.5"/>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+      <Id>
+        <TypeId>ModStorageComponent</TypeId>
+        <SubtypeId>AlterToClang</SubtypeId>
+      </Id>
+      <RegisteredStorageGuids>
+        <guid>a336bd66-b785-43bb-939a-867566be0b42</guid>
+      </RegisteredStorageGuids>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
