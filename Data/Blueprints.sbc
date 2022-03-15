@@ -9,21 +9,12 @@
 		<DisplayName>Awesome Sink Extra Ore</DisplayName>
 		<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
 		<Prerequisites>
-			<Item Amount="1" TypeId="Ingot" SubtypeId="Ice" />
+			<Item Amount="500000" TypeId="Ore" SubtypeId="Ice" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="0.0090" TypeId="Ore" SubtypeId="Iron" />
-			<Item Amount="0.0050" TypeId="Ore" SubtypeId="Nickel" />
-			<Item Amount="0.0040" TypeId="Ore" SubtypeId="Silicon" />
-			<Item Amount="0.0030" TypeId="Ore" SubtypeId="Ice" />
-			<Item Amount="0.0020" TypeId="Ore" SubtypeId="Cobalt" />
-			<Item Amount="0.0010" TypeId="Ore" SubtypeId="Magnesium" />
-			<Item Amount="0.0005" TypeId="Ore" SubtypeId="Silver" />
-			<Item Amount="0.0003" TypeId="Ore" SubtypeId="Gold" />
-			<Item Amount="0.0002" TypeId="Ore" SubtypeId="Platinum" />
-			<Item Amount="0.0001" TypeId="Ore" SubtypeId="Uranium" />
+      <Item Amount="1" TypeId="Component" SubtypeId="Tech8x" />
 		</Results>      
-		<BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
+		<BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 	</Blueprint>
 </Blueprints>
 </Definitions>
